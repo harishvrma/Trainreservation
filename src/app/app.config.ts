@@ -1,8 +1,9 @@
-import { ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
+import { SeatBookingComponent } from './seat-booking/seat-booking.component';
 
-import { routes } from './app.routes';
-
-export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes)]
+export const appConfig = {
+  providers: [
+    provideRouter([]),
+    // Remove importProvidersFrom for standalone components
+  ],
 };

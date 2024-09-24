@@ -1,0 +1,43 @@
+/* src/app/app.component.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .booking-form {
+    margin-bottom: 20px;
+  }
+  
+  .seating {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .seating div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  .booked {
+    background-color: red;
+    color: white;
+  }
+  
+  .available {
+    background-color: green;
+    color: white;
+  }
+  
+  .booked-seats {
+    margin-top: 20px;
+  }
+  
